@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp">
+
+        <TextView
+            android:id="@+id/idTextView"
+            android:layout_width="40dp"
+            android:layout_weight="0.2"
+            android:gravity="left|center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="01"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="40dp"
+            android:layout_weight="0.6"
+            android:gravity="left|center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Murat"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:id="@+id/divider5"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/countryTextView"
+            android:layout_width="40dp"
+            android:layout_weight="0.6"
+            android:gravity="left|center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="Turkey"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <View
+            android:id="@+id/divider6"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/totalTextView"
+            android:layout_width="40dp"
+            android:layout_weight="0.6"
+            android:gravity="left|center_vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:text="22500"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:ignore="RtlCompat" />
+
+        <ImageView
+            android:id="@+id/menuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_menu" />
+
+
+    </TableRow>
+
+</TableLayout>
